@@ -1,6 +1,6 @@
 :root {
     --heading-background-color: rgb(29, 99, 84);
-    --border-color: blue:
+    --border-color: rgb(140, 157, 165);
 }
 
 nav {
@@ -25,7 +25,6 @@ main img {
     border: 1px solid var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    align-;
     
 }
 
