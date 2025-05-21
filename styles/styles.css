@@ -1,6 +1,14 @@
 :root {
-    --heading-background-color: rgb(29, 99, 84);
+    --heading-background-color: rgb(120, 146, 170);
     --border-color: rgb(140, 157, 165);
+    --text-color: rgb(0, 0, 0);
+    --text-link-color: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -9,7 +17,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--text-link-color);
     display: block;
     padding: 20px;
 }
@@ -17,6 +25,7 @@ nav a {
 h1 {
     color: var(--heading-background-color);
     text-align: center;
+    padding: 5rem;
 }
 
 main img {
@@ -25,6 +34,8 @@ main img {
     border: 1px solid var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
     
 }
 
@@ -35,13 +46,14 @@ main {
 }
 
 aside {
-    width: 100%;
+    width: 50em; /*
     margin: 10px;
     border: 30px solid var(--heading-background-color);
     padding: 30px;
     background-color: var(--border-color);
-    color: rgb(0, 0, 0);
+    color: var(--text-color); */
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -50,7 +62,14 @@ aside img {
 
 }
 
+aside h2 {
+    position: relative;
+    top: 1px;
+    left: 10px;
+}
+
 p {
+    margin: 1rem;
     padding: 0;
     text-align: center;
 }
@@ -59,4 +78,18 @@ footer {
     margin-top: 100px;
     border-top: 10px solid var(--heading-background-color);
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    background-color: var(--heading-background-color);
+    color: var(--text-color);
+}
+
+.indent {
+    padding-left: 2rem;
 }
