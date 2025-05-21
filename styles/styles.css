@@ -1,6 +1,6 @@
 :root {
     --heading-background-color: rgb(120, 146, 170);
-    --border-color: rgb(140, 157, 165);
+    --border-color: rgb(148, 151, 155);
     --text-color: rgb(0, 0, 0);
     --text-link-color: rgb(255, 255, 255);
 }
@@ -33,7 +33,7 @@ main img {
     height: auto;
     border: 1px solid var(--border-color);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px var(--border-color);
     float: right;
     margin: 0 0 1rem 1rem;
     
