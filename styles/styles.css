@@ -36,7 +36,7 @@ main img {
     box-shadow: 0 0 30px var(--border-color);
     float: right;
     margin: 0 0 1rem 1rem;
-    
+
 }
 
 main {
@@ -46,7 +46,8 @@ main {
 }
 
 aside {
-    width: 50em; /*
+    width: 50em;
+    /*
     margin: 10px;
     border: 30px solid var(--heading-background-color);
     padding: 30px;
