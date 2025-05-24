@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #73FBD3;
+    /*aquamarine*/
+    --secondary-color: #44E5E7;
+    /*Fluorescent cyan*/
+    --accent1-color: #59D2FE;
+    /*vivid sky blue */
+    --accent2-color: #4A8FE7;
+    /*Chefchaouen Blue */
+    --heading-font: "waiting for the sunrise", sans-serif;
+    --body-font: "knewave", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #1b1201;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: var(--accent2-color);
+    color: #111111;
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+}
