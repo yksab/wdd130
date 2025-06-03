@@ -128,7 +128,7 @@ header nav a {
 }
 
 .history h2 {
-    border: #111111 solid 1px;
+    /*border: #111111 solid 1px;*/
     height: 250px;
     width: 200px;
     text-align: center;
