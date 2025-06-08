@@ -1,5 +1,5 @@
 :root {
-    --primary-color: ##00009C;
+    --primary-color: #000080;
     /*Duke Blue*/
     --secondary-color: #B2FFFF;
     /**/
@@ -31,7 +31,7 @@
 */
 body {
     font-family: var(--body-font);
-    color: var(--primary-colo-color);
+    color: var(--primary-color);
 }
 
 header,
