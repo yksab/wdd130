@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #73FBD3;
-    /*aquamarine*/
-    --secondary-color: #44E5E7;
-    /*Fluorescent cyan*/
+    --primary-color: ##00009C;
+    /*Duke Blue*/
+    --secondary-color: #B2FFFF;
+    /**/
     --accent1-color: #59D2FE;
     /*vivid sky blue */
-    --accent2-color: #4A8FE7;
-    /*Chefchaouen Blue */
+    --accent2-color: #AFDBF5;
+    /*Uranian Blue */
     --heading-font: "Waiting for the Sunrise", cursive;
     --body-font: "Knewave", sans-system-ui;
 }
@@ -18,9 +18,8 @@
 }
 
 /*.knewave-regular {
-  font-family: "Knewave", system-ui;
-  font-weight: 400;
-  font-style: normal;
+  fontmmmmmmmmmmmmmmm-weight: 400;
+  font-smmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmtyle: normal;
 }
 
 .waiting-for-the-sunrise-regular {
@@ -32,7 +31,7 @@
 */
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--primary-colo-color);
 }
 
 header,
