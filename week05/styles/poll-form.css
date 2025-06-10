@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Savate", sans-serif;
+    font-size: 1em;
+    /*color: #f8eb2f;*/
+    background: #707386;
+    
+}
+
+header {
+    margin:  2em;
+    width: 650px;
+}
+
+h1 {
+    font-family: "Edu QLD Hand";
+    color: rgb(26, 26, 194);
+    font-size: large;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 15px solid #a80606;
+    border-radius: 6rem;
+    background-color: rgb(164, 154, 154);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.2rem;
+    margin: 1rem;
+    border: 10px solid blueviolet;
+    padding: 1rem;
+}
+
+legend {
+    padding: 5rem;
+    color:#072991;
+    font-weight: 400;
+    font-size: 2rem;
+    border: 3px black;
+}
+
+label, input, button, textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 1rem;
+    font-style: oblique;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: aqua;
+    color: #df1010;
+    border: none;
+    border-radius: 2rem;
+    padding: 3rem;
+    font-size: xx-large;
+}
+
+button:hover {
+    background-color: chocolate;
+}
+
+footer {
+    margin: 1rem;
+    width: 650px;
+    text-align: center;
+    font-size: larger;
+    color: #1b1606;
+    border-top: 3px solid #2de269;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem;
+}
