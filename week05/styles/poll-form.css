@@ -5,60 +5,70 @@
 }
 
 body {
-    font-family: "Savate", sans-serif;
-    font-size: 1em;
-    /*color: #f8eb2f;*/
-    background: #707386;
-    
+    font-family: Savate, sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    background: #fff;
 }
 
 header {
-    margin:  2em;
+    margin: 0 auto;
     width: 650px;
+    background-color: #db0a0a;
+    padding: 1rem;
+    border: #333 solid;
 }
 
 h1 {
-    font-family: "Edu QLD Hand";
-    color: rgb(26, 26, 194);
-    font-size: large;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: navy;
     text-align: center;
+    background-color: #d8db0a;
+    border: #333 solid;
 }
 
 form {
     width: 650px;
     margin: 0 auto;
-    padding: 50px;
-    border: 15px solid #a80606;
-    border-radius: 6rem;
-    background-color: rgb(164, 154, 154);
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
     display: grid;
 }
 
 fieldset {
     display: grid;
-    grid-gap: 0.2rem;
+    grid-gap: 0.5rem;
     margin: 1rem;
-    border: 10px solid blueviolet;
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
 }
 
 legend {
-    padding: 5rem;
-    color:#072991;
-    font-weight: 400;
-    font-size: 2rem;
-    border: 3px black;
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
 }
 
-label, input, button, textarea {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right: 1rem;
-    font-style: oblique;
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Edu, sans-serif;
 }
 
 label {
     text-align: right;
     padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
 }
 
 input[type="checkbox"] {
@@ -69,25 +79,24 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
-    background-color: aqua;
-    color: #df1010;
+    background-color: #fff;
     border: none;
-    border-radius: 2rem;
-    padding: 3rem;
-    font-size: xx-large;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
 }
 
 button:hover {
-    background-color: chocolate;
+    background-color: darkgreen;
 }
 
 footer {
-    margin: 1rem;
+    margin: 1rem auto 0;
     width: 650px;
     text-align: center;
-    font-size: larger;
-    color: #1b1606;
-    border-top: 3px solid #2de269;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
 }
 
 .form-item {
@@ -97,10 +106,9 @@ footer {
 
 .column1 {
     grid-template-columns: 3fr 1fr;
-    margin: 1rem;
+    margin: 0.5rem 0;
 }
 
 .column2 {
     grid-template-columns: 1fr 2fr;
-    margin: 1rem;
 }
