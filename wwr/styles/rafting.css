@@ -17,18 +17,6 @@
     box-sizing: border-box;
 }
 
-/*.knewave-regular {
-  fontmmmmmmmmmmmmmmm-weight: 400;
-  font-smmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmtyle: normal;
-}
-
-.waiting-for-the-sunrise-regular {
-  font-family: "Waiting for the Sunrise", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-*/
 body {
     font-family: var(--body-font);
     color: var(--primary-color);
@@ -63,7 +51,7 @@ article {
     position: relative;
 }
 
-.hero img {
+.hero > img {
     display: block;
     width: 100%;
     height: auto;
@@ -80,18 +68,18 @@ h1 {
     color: #1b1201;
 }
 
-.hero article {
+.hero > article {
     position: absolute;
     bottom: 120px;
     width: 100%;
     padding: 10px;
     text-align: center;
-    opacity: 0.;
+    opacity: 0.7;
     background-color: var(--accent2-color);
     color: #111111;
 }
 
-.hero article img {
+.hero > article > img {
     float: right;
     position: relative;
     bottom: 15px;
