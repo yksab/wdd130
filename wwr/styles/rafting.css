@@ -319,5 +319,8 @@ tr {
     border: 2px solid black;
     background-color: rgb(188, 231, 217);
     text-align: center;
+}
 
+.tabletextalign {
+    padding-left: 30px;
 }
