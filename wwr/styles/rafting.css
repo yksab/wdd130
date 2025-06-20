@@ -86,7 +86,7 @@ h1 {
     width: 100%;
     padding: 10px;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.;
     background-color: var(--accent2-color);
     color: #111111;
 }
@@ -177,7 +177,7 @@ footer {
     justify-items: center;
 }
 
-.contact {
+.subhead {
     position: relative;
     margin-bottom: 50px;
     border: #111111 solid 1px;
@@ -221,7 +221,7 @@ form {
     display: grid;
     row-gap: 20px;
     border: #111111 solid 1px;
-    width: 840px;
+    width: auto;
     height: auto;
     padding: 10px;
 }
@@ -260,13 +260,69 @@ button:hover {
 /* Trips Table */
 
 table {
-  border-collapse: collapse;
-  width: 100%;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 td,
-th, tr {
-  border: 1px solid black;
-  padding: 10px 10px;
+th,
+tr {
+    border: 1px solid black;
+    padding: 10px 10px;
 }
 
+.picture {
+    width: 100%;
+    height: auto;
+}
+
+.homehero {
+    position: relative;
+}
+
+.homehero>div {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    background-color: rgb(166, 224, 157);
+    width: 840px;
+    opacity: .8;
+    text-align: center;
+}
+
+.homesection {
+    width: 840px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.homesection img {
+    width: 100%;
+    height: auto;
+}
+
+#home1 {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#home2 {
+    grid-column: 1/3;
+    grid-row: 3;
+}
+
+#home3 {
+    grid-column: 4/6;
+    grid-row: 1/3;
+}
+
+#home4 {
+    grid-column: 3/6;
+    grid-row: 3;
+}
+
+#home5 {
+    grid-column: 2/6;
+    grid-row: 7;
+}
