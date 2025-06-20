@@ -126,8 +126,7 @@ header nav a {
     justify-content: space-around;
 }
 
-.history h2 {
-    /*border: #111111 solid 1px;*/
+.history h2 {  
     height: 250px;
     width: 200px;
     text-align: center;
@@ -326,4 +325,10 @@ tr {
 #home5 {
     grid-column: 2/6;
     grid-row: 3;
+}
+
+.border {
+    border: 2px solid black;
+    background-color: rgb(188, 231, 217);
+
 }
